@@ -1,0 +1,14 @@
+{
+  "name": "react-native-vertical-text",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.53.1"
+  }
+}
