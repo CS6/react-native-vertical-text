@@ -1,23 +1,15 @@
 
-
-
-
-
-<!-- ![](https://img.shields.io/npm/v/react-native-progress-steps.svg?style=flat)
-![](https://img.shields.io/npm/dt/react-native-progress-steps.svg)
-[![HitCount](http://hits.dwyl.io/colbymillerdev/react-native-progress-steps.svg)](http://hits.dwyl.io/colbymillerdev/react-native-progress-steps)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) -->
-
 # react-native-vertical-text
-
-
 A simple and fully customizable React Native component that
  implements a  vertical text UI. 
-
+<!-- 
 
 Example One             |  Example Two
 :-------------------------:|:-------------------------:
-![](doc/img/A.png)[examples/ExampleOne.js](examples/ExampleOne.js)| ![](doc/img/B.png) [examples/ExampleTwo.js](examples/ExampleTwo.js)
+![](doc/img/A.png)| ![](doc/img/B.png)
+ -->
+
+![altA tag](doc/img/A.png) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![alt tag](doc/img/A.png)
 
 
 ## Installation
