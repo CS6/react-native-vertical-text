@@ -5,6 +5,8 @@ import {
   Text,
   Dimensions,
 } from 'react-native';
+// import PropTypes from 'prop-types';
+
 
 // 取得屏幕的宽高Dimensions
 const { width, height } = Dimensions.get('window');
@@ -26,16 +28,17 @@ export default class VerticalText extends Component {
   
  
   render() {
-    let lineText = 24;//每行文字數量
+    // let lineText = 24;//每行文字數量
     let longText =this.props.text;
     // list[longText.length] = {};
+    let LineFontSize ={ ...this.props.style }
+
     let list = longText.split('');
     return (
-      <View style={{
-        height: 500, with: 500,
-         alignItems: 'center', justifyContent: 'flex-start', flexDirection: "column", flexWrap: "wrap-reverse", marginVertical: 20, marginLeft: 20
-      }}>
-        {list.map(function (val, index) {
+      <View style= {[{ height: 500,
+        alignItems: 'center', justifyContent: 'flex-start', flexDirection: "column", flexWrap: "wrap-reverse", 
+    }, { ...this.props.style }]}>
+       {list.map(function (val, index) {
           // if (name.length > 5) {
           //     name = name.substr(0, 5);
           // }
@@ -57,9 +60,9 @@ export default class VerticalText extends Component {
           // </View>
           // }
 
-          return <View style={{ textAlign: "center", borderWidth: 1, }}>
+          return <View style={{ textAlign: "center",  }}key = { index }>
 
-          <Text style={styles.CHfont}>   {longText[index]}  </Text>
+<Text style={[styles.CHfont,LineFontSize]}>   {longText[index]}  </Text>
         </View>
           
         })}
@@ -94,12 +97,11 @@ const styles = StyleSheet.create({
   }, CHfont: {
     // textAlign: "center",
     fontSize: 18,
-    color: "#FFFFFF",
+    // color: "#FFFFFF",
     // width: 49,
     // flex: 1,
     //justifyContent: 'center',
     // alignItems: 'center',
-    backgroundColor: '#F5ACaB',
   }
 
 

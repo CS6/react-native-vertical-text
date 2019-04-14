@@ -1,6 +1,6 @@
 {
   "name": "react-native-vertical-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,30 @@
   "description": "",
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.53.1"
-  }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "ui"
+  ],
+  "dependencies": {
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CS6/react-native-vertical-text.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CS6/react-native-vertical-text/issues"
+  },
+  "homepage": "https://github.com/CS6/react-native-vertical-text#readme"
 }
