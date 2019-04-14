@@ -25,9 +25,7 @@
     "android",
     "ui"
   ],
-  "dependencies": {
-  
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CS6/react-native-vertical-text.git"

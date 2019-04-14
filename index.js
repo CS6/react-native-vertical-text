@@ -1,6 +1,6 @@
 // import ProgressSteps from './src/ProgressSteps/ProgressSteps';
 // import ProgressStep from './src/ProgressSteps/ProgressStep';
-import VerticalText from './VerticalText'
+import VerticalText from './src/VerticalText'
 
 // import { ProgressSteps, ProgressStep } from 'react-native-progress-steps';
 
