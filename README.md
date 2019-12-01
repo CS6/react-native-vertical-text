@@ -79,6 +79,32 @@ return (
 
 ## Documentation
 
+```
+export default class VerticalText extends Component {
+  render() {
+    // let lineText = 24;//每行文字數量
+    let longText =this.props.text;
+    // list[longText.length] = {};
+    let LineFontSize ={ ...this.props.style }
+
+    let list = longText.split('');
+    return (
+      <View style= {[{ height: 500,
+        alignItems: 'center', justifyContent: 'flex-start', flexDirection: "column", flexWrap: "wrap-reverse", 
+    }, { ...this.props.style }]}>
+       {list.map(function (val, index) {
+          //替換字元
+          return <View style={{ textAlign: "center",  }}key = { index }>
+<Text style={[styles.CHfont,LineFontSize]}>   {longText[index]}  </Text>
+        </View>
+        })}
+      </View>
+    );
+  };
+}
+
+```
+
 ### verticalText Component
 | Name                      | Description                              | Default     | Type   |
 |---------------------------|------------------------------------------|-------------|--------|
